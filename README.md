@@ -1,9 +1,3 @@
-Thanks to a careless technical specialist at Neev, selection sort and quick sort just stopped working.
-As a fresher, debug the program with the help of browser developer tools using breakpoints and save the day by fixing the program.
-
-The catch - also document your steps below. 
-
-Name : 
 
 
 Selection Sort
@@ -11,15 +5,19 @@ Selection Sort
 
 ## Steps
 
-1. Step 1
-2. Step 2
-3. ...
+1. Outer for loop should go up to (this.a.length-1). 
+2. Inner for loop start from (i+1) to (this.a.length).
+3. In condition comparing (i)value > (j)value where max shoud be max=j;
+4. We can have one more condition like when i==max swapping should not perform , it will improve our logic.
+
+
 
 QuickSort
 =========
 
 ## Steps
 
-1. Step 1
-2. Step 2
-3. ...
+1. It should be (0,this.a.length-1).
+2. this.qsort(q+1, r);
+
+
